@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!-- JQUERY 3.7.1 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- BOOTSTRAP 5.3.7 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP TABLES 1.24.1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-table@1.24.1/dist/bootstrap-table.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.24.1/dist/bootstrap-table.min.js"></script>
+    <!-- LODASH 4.17.20 -->
+    <script type="text/JavaScript" src="https://cdn.jsdelivr.net/npm/lodash@4.17.20/lodash.min.js"></script>
+    <!-- MOMENT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Main.css">
+    <title>Dunsparce World</title>
+    <macrolist>
+        <macro>
+
+        </macro>
+    </macrolist>
+</head>
+
+<body>
+    <p>
+        <span><button mode="dark" id="dark_light_btn">Light Mode</button></span>
+        <!-- <span><button mode="view" id="view_edit_btn">Edit Mode</button></span> -->
+    </p>
+    <!-- MODIFICA/AGGIUNGI/RIMUOVI RIGHE -->
+    <!-- <div class="functions">
+        <table class="functions">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>
+                        <button id="add">Add Line</button>
+                        <button id="edit">Edit Line</button>
+                        <button id="remove">Remove Selected Lines</button>
+                        <button id="add_have">Add to Owned</button>
+                        <button id="remove_have">Remove from Owned</button>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="language">Language</label>
+                    </td>
+                    <td>
+                        <select name="language" id="language">
+                            <option value=""></option>
+                            <option value="JP">Japanese</option>
+                            <option value="EN">English</option>
+                            <option value="IT">Italian</option>
+                            <option value="DE">German</option>
+                            <option value="FR">French</option>
+                            <option value="ES">Spanish</option>
+                            <option value="PT">Portuguese</option>
+                            <option value="PL">Polish</option>
+                            <option value="RU">Russian</option>
+                            <option value="KR">Korean</option>
+                            <option value="ID">Indonesian</option>
+                            <option value="TH">Thai</option>
+                            <option value="TRAD-CH">Traditional Chinese</option>
+                            <option value="SIMPL-CH">Simplified Chinese</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label for="lineid">Line ID</label> </td>
+                    <td> <input type="text" id="lineid" name="lineid" /></td>
+                </tr>
+                <tr>
+                    <td><label for="pic_code">Pic Code</label></td>
+                    <td><input type="text" id="pic_code" name="pic_code" /></td>
+                </tr>
+                <tr>
+                    <td><label for="set_code">Set Code</label></td>
+                    <td><input type="text" id="set_code" name="set_code" /></td>
+                </tr>
+                <tr>
+                    <td><label for="set">Set Name</label></td>
+                    <td><input type="text" id="set" name="set" /></td>
+                </tr>
+                <tr>
+                    <td><label for="number">Number</label></td>
+                    <td><input type="text" id="number" name="number" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="edition">Edition</label>
+                    </td>
+                    <td>
+                        <select name="edition" id="edition">
+                            <option value=""></option>
+                            <option value="1st">1st Ed.</option>
+                            <option value="Unl">Unlimited</option>
+                            <option value="Reg">Regular</option>
+                            <option value="Rev">Reverse</option>
+                            <option value="TG">Trainer Gallery</option>
+                            <option value="Pok">Reverse Pokeball</option>
+                            <option value="Mas">Reverse Masterball</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="note">Note</label></td>
+                    <td><input type="text" id="note" name="note" /></td>
+                </tr>
+                <tr>
+                    <td><label for="have">Have?</label> </td>
+                    <td><input type="checkbox" id="have" name="have" /></td>
+                </tr>
+            </tbody>
+        </table>
+    </div> -->
+    <div class="col d-flex flex-wrap">
+        <div class="p-1"><img class="flag p-0 img-thumbnail" id="flag_JP" src="./images/_Flags/jp.svg"
+                title="Japanese"></img></div>
+        <div class="p-1"><img class="flag p-0 img-thumbnail" id="flag_EN" src="./images/_Flags/gb.svg"
+                title="English"></img></div>
+        <div class="p-1"><img class="flag p-0 img-thumbnail" id="flag_IT" src="./images/_Flags/it.svg"
+                title="Italian"></img></div>
+        <div class="p-1"><img class="flag p-0 img-thumbnail" id="flag_DE" src="./images/_Flags/de.svg"
+                title="German"></img></div>
+        <div class="p-1"><img class="flag p-0 img-thumbnail" id="flag_FR" src="./images/_Flags/fr.svg"
+                title="French"></img></div>
+        <div class="p-1"><img class="flag p-0 img-thumbnail" id="flag_ES" src="./images/_Flags/es.svg"
+                title="Spanish"></img></div>
+        <div class="p-1"><img class="flag p-0 img-thumbnail" id="flag_PT" src="./images/_Flags/pt.svg"
+                title="Portuguese"></img></div>
+        <div class="p-1"><img class="flag p-0 img-thumbnail" id="flag_PL" src="./images/_Flags/pl.svg"
+                title="Polish"></img></div>
+        <div class="p-1"><img class="flag p-0 img-thumbnail" id="flag_RU" src="./images/_Flags/ru.svg"
+                title="Russian"></img></div>
+        <div class="p-1"><img class="flag p-0 img-thumbnail" id="flag_KR" src="./images/_Flags/kr.svg"
+                title="Korean"></img></div>
+        <div class="p-1"><img class="flag p-0 img-thumbnail" id="flag_ID" src="./images/_Flags/id.svg"
+                title="Indonesian"></img></div>
+        <div class="p-1"><img class="flag p-0 img-thumbnail" id="flag_TH" src="./images/_Flags/th.svg"
+                title="Thai"></img></div>
+        <div class="p-1"><img class="flag p-0 img-thumbnail" id="flag_TRAD-CH" src="./images/_Flags/trad-ch.svg"
+                title="Traditional Chinese (Taiwan - Hong Kong)"></img></div>
+        <div class="p-1"><img class="flag p-0 img-thumbnail" id="flag_SIMPL-CH" src="./images/_Flags/cn.svg"
+                title="Simplified Chinese (Mainland)"></img></div>
+    </div>
+    <!-- <div class="container">
+        <div class='row gy-2'>
+            <div class="col-3 col-sm-2 col-md-1">
+                <img class="flag img-fluid" id="flag_JP" src="./images/_Flags/jp.svg" title="Japanese"></img>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1">
+                <img class="flag img-fluid" id="flag_EN" src="./images/_Flags/gb.svg" title="English"></img>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1"><img class="flag img-fluid" id="flag_IT" src="./images/_Flags/it.svg"
+                    title="Italian"></img>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1"><img class="flag img-fluid" id="flag_DE" src="./images/_Flags/de.svg" title="German"></img>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1"><img class="flag img-fluid" id="flag_FR" src="./images/_Flags/fr.svg" title="French"></img>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1"><img class="flag img-fluid" id="flag_ES" src="./images/_Flags/es.svg"
+                    title="Spanish"></img>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1"><img class="flag img-fluid" id="flag_PT" src="./images/_Flags/pt.svg"
+                    title="Portuguese"></img>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1"><img class="flag img-fluid" id="flag_PL" src="./images/_Flags/pl.svg" title="Polish"></img>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1"><img class="flag img-fluid" id="flag_RU" src="./images/_Flags/ru.svg"
+                    title="Russian"></img>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1"> <img class="flag img-fluid" id="flag_KR" src="./images/_Flags/kr.svg"
+                    title="Korean"></img>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1"> <img class="flag img-fluid" id="flag_ID" src="./images/_Flags/id.svg"
+                    title="Indonesian"></img></div>
+            <div class="col-3 col-sm-2 col-md-1"> <img class="flag img-fluid" id="flag_TH" src="./images/_Flags/th.svg" title="Thai"></img>
+            </div>
+            <div class="col-3 col-sm-2 col-md-1"> <img class="flag img-fluid" id="flag_TRAD-CH" src="./images/_Flags/trad-ch.svg"
+                    title="Traditional Chinese (Taiwan - Hong Kong)"></img> </div>
+            <div class="col-3 col-sm-2 col-md-1"> <img class="flag img-fluid" id="flag_SIMPL-CH" src="./images/_Flags/cn.svg"
+                    title="Simplified Chinese (Mainland)"></img>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- MODALE per le IMMAGINI dei DUNSPARCE -->
+    <div id="image_modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="image_modal_img">
+        <div id="caption"></div>
+    </div>
+
+    <!-- TABELLA DUNSPARCE -->
+    <div id="flag_table_div"></div>
+
+    <script src="Main.js"></script>
+
+</body>
+
+</html>

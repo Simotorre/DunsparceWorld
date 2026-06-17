@@ -1,0 +1,64 @@
+Pic;Set Code;Set Name;#;Edizione della carta;Note;Release Date;Have;Line ID
+1;N2;Neo Discovery;54/75;Unlimited;;01/06/2001;x;EN_1
+1;N2;Neo Discovery;54/75;1st Ed.;;01/06/2001;x;EN_2
+2;SK;Skyridge;53/144;Regular;;12/05/2003;;EN_3
+2;SK;Skyridge;53/144;Reverse;;12/05/2003;;EN_4
+3;SS;Ex Sandstorm;60/100;Regular;E-Reader, Code: QZK-UYU-DOP;18/09/2003;;EN_5
+3;SS;Ex Sandstorm;60/100;Regular;E-Reader, Code: QZK-UYU-83X;18/09/2003;x;EN_6
+3;SS;Ex Sandstorm;60/100;Regular;E-Reader, Code: QZK-UYU-7QG;18/09/2003;;EN_7
+3;SS;Ex Sandstorm;60/100;Reverse;E-Reader, Code: QZK-UYU-DTD;18/09/2003;x;EN_8
+3;SS;Ex Sandstorm;60/100;Regular No E-Reader;No E-Reader - EX Battle Stadium;18/10/2004;;EN_9
+3;SS;WCS 2004;60/100;World Championships 2004 - Reed Weichler;Reed Weichler - Rocky Beach;01/11/2004;;EN_10
+3;SS;WCS 2004;60/100;World Championships 2004 - Kevin Nguyen;Kevin Nguyen - Team Rushdown;01/11/2004;;EN_11
+3;SS;WCS 2004;60/100;World Championships 2004 - Chris Fulop;Chris Fulop - Blaziken Tech;01/11/2004;;EN_12
+3;SS;Ex Sandstorm;60/100;Regular No E-Reader;No E-Reader - Gardevoir EX Deck;13/07/2005;;EN_13
+3;SS;WCS 2005;60/100;World Championships 2005 - Takashi Yoneda;Takashi Yoneda - Dark Tyranitar;31/10/2005;;EN_14
+3;SS;WCS 2005;60/100;World Championships 2005 - Michael Gonzalez;Michael Gonzalez - King of the West;31/10/2005;x;EN_15
+4;LM;Ex Legend Maker;31/92;Regular;;13/02/2006;x;EN_16
+4;LM;Ex Legend Maker;31/92;Reverse;;13/02/2006;x;EN_17
+5;MT;Mysterious Treasures;47/123;Regular;;22/08/2007;x;EN_18
+5;MT;Mysterious Treasures;47/123;Reverse;;22/08/2007;x;EN_19
+7;PL;Platinum;73/127;Regular;;11/02/2009;x;EN_20
+7;PL;Platinum;73/127;Reverse;;11/02/2009;x;EN_21
+8;HS;Heartgold & Soulsilver;41/123;Regular;;10/02/2010;x;EN_22
+8;HS;Heartgold & Soulsilver;41/123;Reverse;;10/02/2010;x;EN_23
+9;UL;Unleashed;29/95;Regular;;12/05/2010;x;EN_24
+9;UL;Unleashed;29/95;Reverse;;12/05/2010;x;EN_25
+10;BCR;Boundaries Crossed;111/149;Regular;;07/11/2012;x;EN_26
+10;BCR;Boundaries Crossed;111/149;Reverse;;07/11/2012;x;EN_27
+11;XY;XY;101/146;Regular;;05/02/2014;x;EN_28
+11;XY;XY;101/146;Reverse;;05/02/2014;x;EN_29
+12;ROS;Roaring Skies;68/108;Regular;;06/05/2015;x;EN_30
+12;ROS;Roaring Skies;68/108;Reverse;;06/05/2015;x;EN_31
+13;BKP;BREAKpoint;90/122;Regular;;03/02/2016;x;EN_32
+13;BKP;BREAKpoint;90/122;Reverse;;03/02/2016;x;EN_33
+14;CES;Celestial Storm;110/168;Regular;;03/08/2018;x;EN_34
+14;CES;Celestial Storm;110/168;Reverse;;03/08/2018;x;EN_35
+15;DAA;Darkness Ablaze;137/189;Regular;;04/08/2020;x;EN_36
+15;DAA;Darkness Ablaze;137/189;Reverse;;04/08/2020;x;EN_37
+16;FST;Fusion Strike;207/264;Regular;;12/11/2021;x;EN_38
+16;FST;Fusion Strike;207/264;Reverse;;12/11/2021;x;EN_39
+16;PPS2 FST;Prize Pack Series 2;207/264;Regular;;19/01/2023;x;EN_40
+17;CRZ;Crown Zenith;GG23/GG70;Trainer Gallery;;20/01/2023;x;EN_41
+18;PAL;Paldea Evolved;156/193;Regular;;09/06/2023;x;EN_42
+18;PAL;Paldea Evolved;156/193;Reverse;;09/06/2023;x;EN_43
+19;PAL;Paldea Evolved;157/193;Regular;;09/06/2023;x;EN_44
+19;PAL;Paldea Evolved;157/193;Reverse;;09/06/2023;x;EN_45
+20;PAL;Paldea Evolved;229/193;Trainer Gallery;;09/06/2023;;EN_46
+3;CLC;Pokemon TCG Classic;015/034;Regular;;17/11/2023;x;EN_47
+21;TEF;Temporal Forces;128/162;Regular;;22/03/2024;x;EN_48
+21;TEF;Temporal Forces;128/162;Reverse;;22/03/2024;x;EN_49
+22;TEF;Temporal Forces;129/162;Regular;;22/03/2024;x;EN_50
+22;TEF;Temporal Forces;129/162;Reverse;;22/03/2024;x;EN_51
+21;PRE;Prismatic Evolution;079/131;Regular;;17/01/2025;;EN_52
+21;PRE;Prismatic Evolution;079/131;Reverse;;17/01/2025;;EN_53
+21;PRE;Prismatic Evolution;079/131;Reverse Pokeball;;17/01/2025;;EN_54
+21;PRE;Prismatic Evolution;079/131;Reverse Masterball;;17/01/2025;;EN_55
+22;PRE;Prismatic Evolution;080/131;Regular;;17/01/2025;;EN_56
+22;PRE;Prismatic Evolution;080/131;Reverse;;17/01/2025;;EN_57
+22;PRE;Prismatic Evolution;080/131;Reverse Pokeball;;17/01/2025;;EN_58
+22;PRE;Prismatic Evolution;080/131;Reverse Masterball;;17/01/2025;;EN_59
+23;JTG;Journey Togheter;120/159;Regular;;28/03/2025;;EN_60
+23;JTG;Journey Togheter;120/159;Reverse;;28/03/2025;;EN_61
+24;JTG;Journey Togheter;121/159;Regular;;28/03/2025;;EN_62
+25;JTG;Journey Togheter;120/159;Full Art;;28/03/2025;;EN_63
