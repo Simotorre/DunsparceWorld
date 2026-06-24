@@ -1,5 +1,7 @@
 # DunsparceWorld
 
+Dunsparce world is a page for tracking my personal dunsparce/dudunsparce cards collection. It's for personal use only. It's a way to learn coding while doing something related to my hobby.
+
 ## Disclaimer
 
 This project is a personal, non-commercial fan project.
