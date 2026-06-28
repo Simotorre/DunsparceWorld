@@ -23,7 +23,7 @@ Pic;Set Code;Set Name;#;Edizione della carta;Note;Release Date;Have;Line ID
 20;PAL;Paldea Evolved;229/193;Trainer Gallery;;09/06/2023;;PT_22
 21;TEF;Temporal Forces;128/162;Regular;;22/03/2024;x;PT_23
 21;TEF;Temporal Forces;128/162;Reverse;;22/03/2024;;PT_24
-22;TEF;Temporal Forces;129/162;Regular;;22/03/2024;;PT_25
+22;TEF;Temporal Forces;129/162;Regular;;22/03/2024;x;PT_25
 22;TEF;Temporal Forces;129/162;Reverse;;22/03/2024;;PT_26
 21;PRE;Prismatic Evolution;079/131;Regular;;17/01/2025;;PT_27
 21;PRE;Prismatic Evolution;079/131;Reverse;;17/01/2025;;PT_28
@@ -37,3 +37,8 @@ Pic;Set Code;Set Name;#;Edizione della carta;Note;Release Date;Have;Line ID
 23;JTG;Journey Togheter;120/159;Reverse;;28/03/2025;;PT_36
 24;JTG;Journey Togheter;121/159;Regular;;28/03/2025;;PT_37
 25;JTG;Journey Togheter;120/159;Full Art;;28/03/2025;;PT_38
+22;PPS7 TEF;Prize Pack Series 7;129/162;Cosmo Holo;;14/08/2025;;PT_39
+26;ASC;Ascended Heroes;163/159;Regular;;30/01/2026;;PT_40
+26;ASC;Ascended Heroes;163/159;Pokeball;;30/01/2026;;PT_41
+26;ASC;Ascended Heroes;163/159;Energy;;30/01/2026;;PT_42
+27;ASC;Ascended Heroes;164/217;Regular;;30/01/2026;;PT_43

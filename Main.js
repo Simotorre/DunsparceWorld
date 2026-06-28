@@ -29,9 +29,9 @@ var rdt = '';
 var hv = '';
 var id = '';
 const hide = ['Have', 'Line ID'];
-const hide_sm = ['Set Code'];
-const hide_md = ['Set Name'];
-const hide_lg = ['#', 'Note'];
+const hide_sm = ['#']; // ['Set Code'];
+const hide_md = ['Set Name']; // ['Set Name'];
+const hide_lg = ['Release Date', 'Note']; // ['#', 'Note'];
 
 $(document).ready(function () {
     //DARK-LIGHT MODE
@@ -301,18 +301,18 @@ function sortDate(a, b) {
 // bootstrap-table sorter signature: (a, b, rowA, rowB)
 // Riordina per Have e poi in maniera crescente per data
 function sortByHaveThenDate(a, b, rowA, rowB) {
-  const sortOrder = $('#flag_table').bootstrapTable('getOptions').sortOrder || 'asc';
+    const sortOrder = $('#flag_table').bootstrapTable('getOptions').sortOrder || 'asc';
 
-  const haveA = rowA.Have || "";
-  const haveB = rowB.Have || "";
+    const haveA = rowA.Have || "";
+    const haveB = rowB.Have || "";
 
-  // Primo criterio: ordinamento per 'Have'
-  if (haveA === "x" && haveB !== "x") return -1;
-  if (haveA !== "x" && haveB === "x") return 1;
+    // Primo criterio: ordinamento per 'Have'
+    if (haveA === "x" && haveB !== "x") return -1;
+    if (haveA !== "x" && haveB === "x") return 1;
 
-  // Se sono uguali, ordino la data in base all'ordine globale
-  const k = sortOrder === 'asc' ? 1 : -1;
-  return k * sortDate(rowA['Release Date'], rowB['Release Date']);
+    // Se sono uguali, ordino la data in base all'ordine globale
+    const k = sortOrder === 'asc' ? 1 : -1;
+    return k * sortDate(rowA['Release Date'], rowB['Release Date']);
 }
 
 

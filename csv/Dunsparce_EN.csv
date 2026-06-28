@@ -52,17 +52,18 @@ Pic;Set Code;Set Name;#;Edizione della carta;Note;Release Date;Have;Line ID
 22;TEF;Temporal Forces;129/162;Reverse;;22/03/2024;x;EN_51
 21;PRE;Prismatic Evolution;079/131;Regular;;17/01/2025;;EN_52
 21;PRE;Prismatic Evolution;079/131;Reverse;;17/01/2025;;EN_53
-21;PRE;Prismatic Evolution;079/131;Reverse Pokeball;;17/01/2025;;EN_54
+21;PRE;Prismatic Evolution;079/131;Reverse Pokeball;;17/01/2025;x;EN_54
 21;PRE;Prismatic Evolution;079/131;Reverse Masterball;;17/01/2025;;EN_55
-22;PRE;Prismatic Evolution;080/131;Regular;;17/01/2025;;EN_56
+22;PRE;Prismatic Evolution;080/131;Regular;;17/01/2025;x;EN_56
 22;PRE;Prismatic Evolution;080/131;Reverse;;17/01/2025;;EN_57
 22;PRE;Prismatic Evolution;080/131;Reverse Pokeball;;17/01/2025;;EN_58
 22;PRE;Prismatic Evolution;080/131;Reverse Masterball;;17/01/2025;;EN_59
 23;JTG;Journey Togheter;120/159;Regular;;28/03/2025;;EN_60
-23;JTG;Journey Togheter;120/159;Reverse;;28/03/2025;;EN_61
+23;JTG;Journey Togheter;120/159;Reverse;;28/03/2025;x;EN_61
 24;JTG;Journey Togheter;121/159;Regular;;28/03/2025;;EN_62
 25;JTG;Journey Togheter;120/159;Full Art;;28/03/2025;;EN_63
-26;ASC;Ascended Heroes;163/159;Regular;;28/03/2025;;EN_64
-26;ASC;Ascended Heroes;163/159;Pokeball;;28/03/2025;;EN_65
-26;ASC;Ascended Heroes;163/159;Energy;;28/03/2025;;EN_66
-27;ASC;Ascended Heroes;164/217;Regular;;28/03/2025;;EN_67
+25;PPS7 TEF;Prize Pack Series 7;129/162;Cosmo Holo;;14/08/2025;;EN_64
+26;ASC;Ascended Heroes;163/159;Regular;;30/01/2026;;EN_65
+26;ASC;Ascended Heroes;163/159;Reverse Pokeball;;30/01/2026;;EN_66
+26;ASC;Ascended Heroes;163/159;Reverse Energy;;30/01/2026;;EN_67
+27;ASC;Ascended Heroes;164/217;Regular;;30/01/2026;;EN_68
