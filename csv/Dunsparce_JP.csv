@@ -3,15 +3,15 @@ Pic;Set Code;Set Name;#;Edizione della carta;Note;Release Date;Have;Line ID
 PR1;;Pokémon Card Information Vol. 1 insert (January 1, 2001);UNP;Promo;;01/01/2001;x;JP_2
 2;EC4;Split Earth;067/088;1st Ed.;;23/08/2002;x;JP_3
 2;EC4;Split Earth;067/088;Unlimited;;04/10/2002;;JP_4
-3;;Magma VS Aqua: Two Ambitions;056/080;1st Ed.;;24/10/2003;;JP_5
+3;;Magma VS Aqua: Two Ambitions;056/080;1st Ed.;;24/10/2003;x;JP_5
 3;;Magma VS Aqua: Two Ambitions;056/080;Unlimited;;24/10/2003;;JP_6
 4;;Mirage Forest;061/087;1st Ed.;NNB-ZV7-CV3 ;30/06/2005;;JP_7
 4;;Mirage Forest;061/087;1st Ed.;NNB-ZV7-KJA;30/06/2005;;JP_8
-4;;Mirage Forest;061/087;Unlimited;NNB-ZV7-CV3 ;30/06/2005;;JP_9
-4;;Mirage Forest;061/087;Unlimited;NNB-ZV7-KJA;30/06/2005;;JP_10
+4;;Mirage Forest;061/087;Unlimited;NNB-ZV7-CV3 ;30/06/2005;x;JP_9
+4;;Mirage Forest;061/087;Unlimited;NNB-ZV7-KJA;30/06/2005;x;JP_10
 5;DP2;Secret of the Lakes;;1st Ed.;;02/03/2007;;JP_11
 5;DP2;Secret of the Lakes;;Unlimited;;02/03/2007;;JP_12
-6;RtA;Rampardos the Attacker;;1st Ed.;alt art della carta di DP2;02/03/2007;;JP_13
+6;RtA;Rampardos the Attacker;;1st Ed.;alt art della carta di DP2;02/03/2007;x;JP_13
 6;RtA;Rampardos the Attacker;;Unlimited;alt art della carta di DP2;02/03/2007;;JP_14
 7;DPtD;Dialga Half Deck;008/013;1st Ed.;;10/10/2008;;JP_15
 7;DPtD;Dialga Half Deck;008/013;Unlimited;;10/10/2008;x;JP_16
@@ -23,8 +23,8 @@ PR1;;Pokémon Card Information Vol. 1 insert (January 1, 2001);UNP;Promo;;01/01/
 11;XY1;Collection X;046/060;1st Ed.;;13/12/2013;x;JP_22
 11;XY1;Collection X;046/060;Unlimited;;13/12/2013;x;JP_23
 12;XY6;Emerald Break;054/078;1st Ed.;;14/03/2015;x;JP_24
-12;XY6;Emerald Break;054/078;Unlimited;;14/03/2015;;JP_25
-13;XYE;Emboar EX Half Deck;013/022;Unlimited;E' una carta da trial deck.;18/07/2015;;JP_26
+12;XY6;Emerald Break;054/078;Unlimited;;14/03/2015;x;JP_25
+13;XYE;Emboar EX Half Deck;013/022;Unlimited;E' una carta da trial deck.;18/07/2015;x;JP_26
 14;SM6b;Champion Road;047/066;Regular;;03/05/2018;x;JP_27
 14;SM8b;GX Ultra Shiny;106/150;Regular;;02/11/2018;x;JP_28
 14;SM8b;GX Ultra Shiny;106/150;Reverse;;02/11/2018;x;JP_29

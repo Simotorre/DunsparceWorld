@@ -1,5 +1,5 @@
 Pic;Set Code;Set Name;#;Edizione della carta;Note;Release Date;Have;Line ID
-5;BS1;Start of an Adventure;45/60;Unlimited;;12/05/2010;;KR_1
+5;BS1;Start of an Adventure;45/60;Unlimited;;12/05/2010;x;KR_1
 10;BW6;Cold Flare;043/059;Unlimited;;01/12/2012;;KR_2
 11;XY1;Collection X;046/060;Unlimited;;01/03/2014;;KR_3
 12;XY6;Emerald Break;054/078;Unlimited;;01/04/2015;;KR_4
@@ -19,3 +19,4 @@ Pic;Set Code;Set Name;#;Edizione della carta;Note;Release Date;Have;Line ID
 21;SV5K;Wild Force;056/071;Regular;;06/03/2024;;KR_18
 22;SV5K;Wild Force;057/061;Regular;;06/03/2024;;KR_19
 18;SVM;Generation Start Deck Lugia ex & Tyranitar ex;095/175;Regular;;20/12/2024;;KR_20
+23;SV9;Battle Partners;;Regular;;21/03/2025;x;KR_21
