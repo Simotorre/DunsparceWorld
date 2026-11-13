@@ -1,24 +1,25 @@
 Pic;Set Code;Set Name;#;Edizione della carta;Note;Release Date;Have;Line ID
-14;AS3b;Bayangan Tersembunyi Set B;142/183;Regular;;03/05/2018;;
-15;SC3a I;Koleksi VMAX Berkilau Set A;117/159;Regular;;05/06/2020;;
-16;S8 I;Teknik Fusion;079/100;Regular;;24/09/2021;;
-16;S12a I;VSTAR Semesta;118/172;Regular;;02/12/2022;;
-16;S12a I;VSTAR Semesta;118/172;Reverse;olografia reverse cosmo;02/12/2022;;
-17;S12a I;VSTAR Semesta;198/172;Trainer Gallery;;02/12/2022;;
-18;SV2P I;Mara Bahaya Salju;056/071;Regular;;14/04/2023;;
-19;SV2P I;Mara Bahaya Salju;057/071;Regular;;14/04/2023;;
-20;SV2P I;Mara Bahaya Salju;083/071;Trainer Gallery;;14/04/2023;;
-18;SVDS I;Deck Ringkas ex;121/163;Regular;;07/07/2023;;
-21;SV5S I;Paradoks Andalan;110/142;Regular;;26/01/2024;;
-22;SV5S I;Paradoks Andalan;111/142;Regular;;26/01/2024;;
-21;SV8a I;Festival Terastal ex;129/187;Regular;;31/01/2025;;ID_14
-21;SV8a I;Festival Terastal ex;129/187;Reverse Pokeball;;31/01/2025;;TRAD-CH_15
-21;SV8a I;Festival Terastal ex;129/187;Reverse Masterball;;31/01/2025;;TRAD-CH_16
-22;SV8a I;Festival Terastal ex;130/187;Regular;;31/01/2025;;TRAD-CH_17
-22;SV8a I;Festival Terastal ex;130/187;Reverse Pokeball;;31/01/2025;;TRAD-CH_18
-22;SV8a I;Festival Terastal ex;130/187;Reverse Masterball;;31/01/2025;;TRAD-CH_19
-23;SV9s I;Ikatan Takdir;112/139;Regular;;18/04/2025;;TRAD-CH_20
-24;SV9s I;Ikatan Takdir;113/139;Regular;;18/04/2025;;TRAD-CH_21
-25;SV9s I;Ikatan Takdir;169/139;Full Art;;18/04/2025;;TRAD-CH_22
-26;MA4 I;Ledakan Peniada;92/123;Regular;;03/04/2026;;TRAD-CH_22
-27;MA4 I;Ledakan Peniada;94/123;Regular;;03/04/2026;;TRAD-CH_22
+14;AS3b;Hidden Shadow (Bayangan Tersembunyi Set B);142/183;Regular;;30/12/2019;;ID_1
+15;SC3a I;Shiny VMAX Collection (Koleksi VMAX Berkilau Set A);117/159;Regular;;21/03/2021;;ID_2
+16;S8 I;Fusion Arts (Teknik Fusion);079/100;Regular;;24/09/2021;;ID_3
+16;S12a I;VSTAR Universe (VSTAR Semesta);118/172;Regular;;02/12/2022;;ID_4
+16;S12a I;VSTAR Universe (VSTAR Semesta);118/172;Reverse;olografia reverse cosmo;02/12/2022;;ID_5
+17;S12a I;VSTAR Universe (VSTAR Semesta);198/172;Trainer Gallery;;02/12/2022;;ID_6
+18;SV2P I;Snow Hazard (Mara Bahaya Salju);056/071;Regular;;02/06/2023;;ID_7
+19;SV2P I;Snow Hazard (Mara Bahaya Salju);057/071;Regular;;02/06/2023;;ID_8
+20;SV2P I;Snow Hazard (Mara Bahaya Salju);083/071;Trainer Gallery;;02/06/2023;;ID_9
+18;SVDS I;ex Compact Deck (Deck Ringkas ex);121/163;Regular;;10/11/2023;;ID_10
+21;SV5S I;Ace Paradox (Paradoks Andalan);110/142;Regular;;29/03/2024;;ID_11
+22;SV5S I;Ace Paradox (Paradoks Andalan);111/142;Regular;;29/03/2024;;ID_12
+21;SV8a I;Terastal Festival ex (Festival Terastal ex);129/187;Regular;;31/01/2025;;ID_13
+21;SV8a I;Terastal Festival ex (Festival Terastal ex);129/187;Reverse Pokeball;;31/01/2025;;ID_14
+21;SV8a I;Terastal Festival ex (Festival Terastal ex);129/187;Reverse Masterball;;31/01/2025;;ID_15
+22;SV8a I;Terastal Festival ex (Festival Terastal ex);130/187;Regular;;31/01/2025;;ID_16
+22;SV8a I;Terastal Festival ex (Festival Terastal ex);130/187;Reverse Pokeball;;31/01/2025;;ID_17
+22;SV8a I;Terastal Festival ex (Festival Terastal ex);130/187;Reverse Masterball;;31/01/2025;;ID_18
+18;SVM I;"Double ex Start Deck ""Generations"" (Starter Deck ex Ganda ""Generations"")";95/175;Regular;;07/02/2025;;ID_19
+23;SV9s I;Bonds of Destiny (Ikatan Takdir);112/139;Regular;;18/04/2025;;ID_20
+24;SV9s I;Bonds of Destiny (Ikatan Takdir);113/139;Regular;;18/04/2025;;ID_21
+25;SV9s I;Bonds of Destiny (Ikatan Takdir);169/139;Full Art;;18/04/2025;;ID_22
+26;MA4 I;Void Blast (Ledakan Peniada);92/123;Regular;;03/04/2026;;ID_23
+27;MA4 I;Void Blast (Ledakan Peniada);93/123;Regular;;03/04/2026;;ID_24
