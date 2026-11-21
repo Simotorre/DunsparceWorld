@@ -198,7 +198,13 @@ $(document).ready(function () {
                                         if (hide.includes(head[j].trim())) classe = "d-none";
                                         if (hide_md.includes(head[j].trim())) classe = "d-none d-md-table-cell";
                                         if (hide_sm.includes(head[j].trim())) classe = "d-none d-sm-table-cell";
-                                        html += `<td  ${classe != '' ? `class="${classe}"` : ''}>${currentLine[j]}</td>`;
+                                        html += `<td  ${classe != '' ? `class="${classe}"` : ''}>`;
+                                        if (j == stn && languageCode == "TH") {
+                                            html += `${wrapThai(currentLine[j])}`;
+                                        } else {
+                                            html += `${currentLine[j]}`;
+                                        }
+                                        html += `</td>`;
                                     }
                                 }
                                 /* html += `<td class="checkbox">
@@ -315,4 +321,16 @@ function sortByHaveThenDate(a, b, rowA, rowB) {
     return k * sortDate(rowA['Release Date'], rowB['Release Date']);
 }
 
+//Escape Linguistico
+function escHtml(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+// "Fusion Arts (จู่โจมแบบฟิวชัน)" -> "Fusion Arts (<span lang="th">จู่โจมแบบฟิวชัน</span>)"
+function wrapThai(text) {
+    return escHtml(text).replace(
+        /\(([^()]*[\u0E00-\u0E7F][^()]*)\)/g,
+        '(<span lang="th">$1</span>)'
+    );
+}
 
